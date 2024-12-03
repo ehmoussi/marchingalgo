@@ -5,10 +5,10 @@ description = "Marching algorithms extracted from scikit-image"
 readme = "README.md"
 authors = [{ name = "El Hadi Moussi", email = "moussi@phimeca.com" }]
 requires-python = ">=3.6"
-dependencies = ["importlib-metadata;python_version<'3.8'", "numpy==1.16.4"]
+dependencies = ["importlib-metadata;python_version<'3.8'", "numpy"]
 
 [build-system]
-requires = ["setuptools", "setuptools_scm", "cython", "numpy==1.16.4"]
+requires = ["setuptools", "setuptools_scm", "cython", "numpy"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
